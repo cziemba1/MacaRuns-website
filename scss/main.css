@@ -66,22 +66,22 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
 
 #carousel-main .carousel-control-prev {
   position: absolute;
-  -webkit-transform: translate(1rem, 46rem);
-          transform: translate(1rem, 46rem);
+  -webkit-transform: translate(10%, 38rem);
+          transform: translate(10%, 38rem);
   height: 4rem;
 }
 
 #carousel-main .carousel-control-next {
   position: absolute;
-  -webkit-transform: translate(-28rem, 46rem);
-          transform: translate(-28rem, 46rem);
+  -webkit-transform: translate(-450%, 38rem);
+          transform: translate(-450%, 38rem);
   height: 4rem;
 }
 
 #carousel-main .carousel-indicators {
   position: absolute;
-  -webkit-transform: translate(-9rem, -1rem);
-          transform: translate(-9rem, -1rem);
+  -webkit-transform: translate(-45%, -1rem);
+          transform: translate(-45%, -1rem);
 }
 
 nav #menu {
@@ -636,12 +636,12 @@ nav #menu.open {
             transform: translate(7rem, 3rem);
   }
   #carousel-main .carousel-control-prev {
-    -webkit-transform: translate(20%, 46rem);
-            transform: translate(20%, 46rem);
+    -webkit-transform: translate(20%, 38rem);
+            transform: translate(20%, 38rem);
   }
   #carousel-main .carousel-control-next {
-    -webkit-transform: translate(-500%, 46rem);
-            transform: translate(-500%, 46rem);
+    -webkit-transform: translate(-500%, 38rem);
+            transform: translate(-500%, 38rem);
   }
   #carousel-main .carousel-indicators {
     position: absolute;
@@ -836,7 +836,7 @@ nav #menu.open {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
   #carousel-main .carousel-caption {
     -webkit-transform: translateY(-4rem);
             transform: translateY(-4rem);
@@ -861,12 +861,12 @@ nav #menu.open {
             transform: translate(7rem, 3rem);
   }
   #carousel-main .carousel-control-prev {
-    -webkit-transform: translate(20%, 46rem);
-            transform: translate(20%, 46rem);
+    -webkit-transform: translate(20%, 38rem);
+            transform: translate(20%, 38rem);
   }
   #carousel-main .carousel-control-next {
-    -webkit-transform: translate(-500%, 46rem);
-            transform: translate(-500%, 46rem);
+    -webkit-transform: translate(-500%, 38rem);
+            transform: translate(-500%, 38rem);
   }
   #carousel-main .carousel-indicators {
     position: absolute;
@@ -1023,213 +1023,24 @@ nav #menu.open {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   #carousel-main .carousel-caption {
     -webkit-transform: translateY(-4rem);
             transform: translateY(-4rem);
   }
   #carousel-main .carousel-caption h1 {
-    font-size: 7rem;
-    -webkit-transform: translateY(-9rem);
-            transform: translateY(-9rem);
-  }
-  #carousel-main .carousel-caption h5 {
-    -webkit-transform: translateY(-2rem);
-            transform: translateY(-2rem);
-    font-size: 2rem;
-  }
-  #carousel-main .carousel-caption p {
-    margin-bottom: 5rem;
-    font-size: 1.8rem;
-    letter-spacing: .2rem;
-  }
-  #carousel-main .carousel-caption h2 {
-    margin-left: 60%;
-    -webkit-transform: translate(7rem, 3rem);
-            transform: translate(7rem, 3rem);
-  }
-  #carousel-main .carousel-control-prev {
-    -webkit-transform: translate(20%, 46rem);
-            transform: translate(20%, 46rem);
-  }
-  #carousel-main .carousel-control-next {
-    -webkit-transform: translate(-500%, 46rem);
-            transform: translate(-500%, 46rem);
-  }
-  #carousel-main .carousel-indicators {
-    position: absolute;
-    -webkit-transform: translate(-50%, -1rem);
-            transform: translate(-50%, -1rem);
-  }
-  nav #menu {
-    width: 15rem;
-    height: 100vh;
-    top: 0;
-    left: -15rem;
-    z-index: 20;
-  }
-  nav #menu .menu-logo {
-    padding: 1rem;
-  }
-  nav #menu .menu-logo h1 {
-    font-size: 2rem;
-    letter-spacing: .5rem;
-  }
-  nav #menu .menu-logo h5 {
-    font-size: 1.5rem;
-    margin-top: .5rem;
-  }
-  nav #menu .menu-items {
-    padding: 1rem;
-  }
-  nav #menu .menu-items ul li {
-    margin-top: 1rem;
-  }
-  nav #menu .menu-items ul li a {
-    font-size: 1.5rem;
-    padding: .5rem;
-  }
-  nav #menu .menu-social a {
-    margin: 1.3rem;
-    font-size: 1.2rem;
-  }
-  #intro-about {
-    height: 40rem;
-    width: 100%;
-    height: 25rem;
-  }
-  #intro-about h1,
-  #intro-about h2 {
-    font-size: 1.7rem;
-    margin-bottom: 1rem;
-  }
-  #intro-about p {
-    margin: 0 10%;
-    font-size: 2.7rem;
-  }
-  #intro-creations {
-    height: 25rem;
-  }
-  #intro-creations h1,
-  #intro-creations h2 {
-    font-size: 1.7rem;
-    margin-bottom: 1rem;
-  }
-  #intro-creations p {
-    margin: 0 10%;
-    font-size: 2.7rem;
-  }
-  .intro-creations-products .creations .product {
-    height: 60rem;
-    cursor: pointer;
-  }
-  .intro-creations-products .creations .product h1 {
-    font-size: 3rem;
-    margin: 2rem 0;
-    letter-spacing: .3rem;
-  }
-  .intro-creations-products .creations .product .product-img {
-    height: 80%;
-    width: 50%;
-    left: 0;
-    top: 0;
-  }
-  .intro-creations-products .creations .product:hover .product-img {
-    height: 30%;
-    left: -60%;
-    height: 77%;
-  }
-  .intro-creations-products .creations .product .product-hover {
-    margin-top: 4rem;
-  }
-  .intro-creations-products .creations .product .product-hover p {
-    margin-top: 1rem;
-    font-size: 1.9rem;
-    margin-bottom: 1rem;
-  }
-  .intro-creations-products .creations .product .product-hover p:nth-of-type(4) {
-    color: var(--dark-pink);
-  }
-  #bakery-info h1 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  #bakery-info p {
-    width: 60%;
-    font-size: 2.7rem;
-    font-weight: 600;
-  }
-  #story-info h1 {
-    font-size: 1.9rem;
-    margin: 2rem 10% 0 10%;
-  }
-  #story-info h2 {
-    margin: 2.3rem 10%;
-    font-size: 1.6rem;
-  }
-  #story-info p {
-    margin: 0 10% 2rem 10%;
-    font-size: 1.9rem;
-  }
-  #locations-info h1 {
-    font-size: 2.2rem;
-    margin-bottom: 2rem;
-  }
-  #locations-info div {
-    margin-bottom: 1rem;
-  }
-  #locations-info div h2 {
-    font-size: 2rem;
-    letter-spacing: .3rem;
-  }
-  #locations-info div p {
-    font-size: 1.7rem;
-    letter-spacing: .1rem;
-  }
-  #contact-info {
-    padding: 2rem 10%;
-  }
-  #contact-info div h1 {
-    font-size: 2rem;
-    font-weight: 600;
-  }
-  #contact-info div a {
-    font-size: 1.6rem;
-  }
-  #contact-info div a:nth-of-type(2) {
-    margin-bottom: 1.5rem;
-  }
-  #contact-info div h2 {
-    font-size: 1.9rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    color: var(--dark-pink);
-  }
-  #contact-info div p {
-    font-size: 1.78rem;
-    font-weight: lighter;
-    color: var(--dark-pink);
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  #carousel-main .carousel-caption {
-    -webkit-transform: translateY(-4rem);
-            transform: translateY(-4rem);
-  }
-  #carousel-main .carousel-caption h1 {
-    font-size: 8rem;
+    font-size: 6rem;
     -webkit-transform: translate(6rem, -9rem);
             transform: translate(6rem, -9rem);
   }
   #carousel-main .carousel-caption h5 {
     -webkit-transform: translate(6rem, -2rem);
             transform: translate(6rem, -2rem);
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   #carousel-main .carousel-caption p {
     margin-bottom: 5rem;
-    font-size: 2.3rem;
+    font-size: 1.3rem;
     letter-spacing: .2rem;
     width: 70%;
     margin-left: 13%;
@@ -1240,20 +1051,20 @@ nav #menu.open {
     margin-left: 80%;
     -webkit-transform: translate(7rem, 3rem);
             transform: translate(7rem, 3rem);
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
   #carousel-main .carousel-control-prev {
-    -webkit-transform: translate(90%, 46rem);
-            transform: translate(90%, 46rem);
+    -webkit-transform: translate(127%, 38rem);
+            transform: translate(127%, 38rem);
   }
   #carousel-main .carousel-control-next {
-    -webkit-transform: translate(-450%, 46rem);
-            transform: translate(-450%, 46rem);
+    -webkit-transform: translate(-410%, 38rem);
+            transform: translate(-410%, 38rem);
   }
   #carousel-main .carousel-indicators {
     position: absolute;
-    -webkit-transform: translate(-39%, -2rem);
-            transform: translate(-39%, -2rem);
+    -webkit-transform: translate(-30%, -2rem);
+            transform: translate(-30%, -2rem);
   }
   nav #menu {
     position: fixed;
@@ -1271,7 +1082,7 @@ nav #menu.open {
   }
   nav #menu .menu-logo h1 {
     font-size: 2.4rem;
-    letter-spacing: .5rem;
+    letter-spacing: .49rem;
   }
   nav #menu .menu-logo h5 {
     font-size: 1.9rem;
@@ -1311,11 +1122,11 @@ nav #menu.open {
   #intro-creations h1,
   #intro-creations h2 {
     font-size: 2rem;
-    margin: 0 20% 1rem 30%;
+    margin: 0 20% 1rem 35%;
   }
   #intro-creations p {
-    font-size: 2.7rem;
-    margin: 0 20% 1rem 30%;
+    font-size: 2.5rem;
+    margin: 0 20% 1rem 35%;
   }
   .intro-creations-products {
     -webkit-box-orient: horizontal;
@@ -1336,8 +1147,8 @@ nav #menu.open {
   .intro-creations-products .creations .product {
     height: 50rem;
     cursor: pointer;
-    width: 40rem;
-    margin: 0 3rem 2rem 3rem;
+    width: 35rem;
+    margin: 0 0rem 2rem 1rem;
   }
   .intro-creations-products .creations .product h1 {
     font-size: 3rem;
@@ -1358,11 +1169,11 @@ nav #menu.open {
   }
   .intro-creations-products .creations .product .product-hover {
     margin-top: 4rem;
-    width: 40rem;
+    width: 35rem;
   }
   .intro-creations-products .creations .product .product-hover p {
     margin-top: 1rem;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
     -webkit-transform: translateX(-3.5rem);
             transform: translateX(-3.5rem);
@@ -1376,9 +1187,9 @@ nav #menu.open {
   }
   #bakery-info p {
     width: 60%;
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     font-weight: 600;
-    margin: 0 20% 1rem 30%;
+    margin: 0 20% 1rem 35%;
   }
   #story-info h1 {
     font-size: 1.9rem;
@@ -1390,7 +1201,7 @@ nav #menu.open {
   }
   #story-info p {
     margin: 0 20% 2rem 30%;
-    font-size: 1.9rem;
+    font-size: 1.6rem;
   }
   #locations-info h1 {
     font-size: 2.5rem;

@@ -58,19 +58,19 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
 
     .carousel-control-prev{
         position: absolute;
-        transform: translate(1rem, 46rem);
+        transform: translate(10%, 38rem);
         height: 4rem;
     }
 
     .carousel-control-next{
         position: absolute;
-        transform: translate(-28rem, 46rem);
+        transform: translate(-450%, 38rem);
         height: 4rem;
     }
 
     .carousel-indicators{
         position: absolute;
-        transform: translate(-9rem, -1rem);
+        transform: translate(-45%, -1rem);
     }
 }
 
@@ -518,32 +518,32 @@ nav{
                 font-size: 2rem;
             }
 
-        p{
-            margin-bottom: 5rem;
-            font-size: 1.4rem;
+            p{
+                margin-bottom: 5rem;
+                font-size: 1.4rem;
+            }
+
+            h2{
+                margin-left: 60%;
+                transform: translate(7rem, 3rem);
+            }
         }
 
-        h2{
-            margin-left: 60%;
-            transform: translate(7rem, 3rem);
+        .carousel-control-prev{
+            transform: translate(20%, 38rem);
+        }
+
+        .carousel-control-next{
+            transform: translate(-500%, 38rem);
+        }
+
+        .carousel-indicators{
+            position: absolute;
+            transform: translate(-50%, -1rem);
         }
     }
 
-    .carousel-control-prev{
-        transform: translate(20%, 46rem);
-    }
-
-    .carousel-control-next{
-        transform: translate(-500%, 46rem);
-    }
-
-    .carousel-indicators{
-        position: absolute;
-        transform: translate(-50%, -1rem);
-    }
-}
-
-nav{
+    nav{
         #menu{
             width: 15rem;
             height: 100vh;
@@ -566,223 +566,222 @@ nav{
                 }
             }
 
-        .menu-logo{
-            padding: 1rem;
+            .menu-logo{
+                padding: 1rem;
 
-            h1{
-                font-size: 1.5rem;
-                letter-spacing: .5rem;
-            }
-
-            h5{
-                font-size: 1rem;
-                margin-top: .5rem;
-            }
-            
-        }
-        .menu-items{
-            padding: 1rem;
-
-            ul li{
-                margin-top: 1rem;
-
-                a{
-                    font-size: 1.2rem;
-                    padding: .5rem;
-                }
-            }
-        }
-        .menu-social{
-
-            a{
-                margin: 1rem;
-                font-size: 1.2rem;
-            }
-        } 
-    }
-}
-
-#intro-about{
-    height: 40rem;
-    width: 100%;
-    height: 25rem;     
-
-    h1,
-    h2{
-        font-size: 1.5rem;
-        margin-bottom: 1rem;
-    }
-
-    p{
-        margin: 0 10%;
-        font-size: 1.6rem;;
-    }
-}
-
-#intro-creations{
-    height: 25rem;     
-
-    h1,
-    h2{
-        font-size: 1.5rem;
-        margin-bottom: 1rem;
-    }
-
-    p{
-        margin: 0 10%;
-        font-size: 1.6rem;;
-    }
-}
-
-.intro-creations-products{
-
-    .creations{
-
-        .product{
-            background-color: var(--main-dark-color);
-            padding: 1rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 40rem;
-            z-index: 2;
-            margin-bottom: 1rem;
-            cursor: pointer;
-
-            h1{
-                font-size: 2.5rem;
-                margin: 2rem 0;
-                color: var(--main-light-color);
-                z-index: 100;
-            }
-            .product-img{
-                cursor: pointer;
-                object-fit: cover;
-                height: 80%;
-                transition: all 1s ease-in-out;
-                left: 0;
-                top: 0;
-                position: relative;
-                z-index: 3;
-            }
-
-            &:hover .product-img{
-                height: 30%;
-                left: -60%;
-                height: 77%;
-            }
-
-            &:hover .product-hover{
-                opacity: 1;
-            }
-
-            .product-hover{
-            transition: all 1s ease-in;
-
-                p{
+                h1{
                     font-size: 1.5rem;
-                    margin-bottom: 1rem;
+                    letter-spacing: .5rem;
+                }
+
+                h5{
+                    font-size: 1rem;
+                    margin-top: .5rem;
                 }
                 
-                p:nth-of-type(4){
-                    color: var(--dark-pink);
+            }
+            .menu-items{
+                padding: 1rem;
+
+                ul li{
+                    margin-top: 1rem;
+
+                    a{
+                        font-size: 1.2rem;
+                        padding: .5rem;
+                    }
                 }
-
             }
-        }            
-    }
-}
+            .menu-social{
 
-#bakery-info{
-
-    h1{
-        font-size: 1.5rem;
-        margin-bottom: 2rem;
-    }
-
-    p{
-        width: 60%;
-        font-size: 1.6rem;
-        font-weight: 600;
-    }
-
-}
-
-#story-info{     
-
-    h1{
-        font-size: 1.5rem;
-        margin: 2rem 10% 0 10%;
-    }
-
-    h2{
-        margin: 2rem 10%;
-        font-size: 1.6rem;
-    }
-
-    p{
-        margin: 0 10% 2rem 10%;
-        font-size: 1.3rem;
-    }
-
-}
-
-#locations-info{
-    h1{
-        font-size: 1.6rem;
-        margin-bottom: 2rem;
-    }
-
-        div{
-            margin-bottom: 1rem;
-            h2{
-                font-size: 1.6rem;
-                letter-spacing: .3rem;
-            }
-            p{
-                font-size: 1.4rem;
-                letter-spacing: .1rem;
-            }
-        
-    }
-}
-
-#contact-info{
-    padding: 2rem 10%;
-
-    div{
-
-        h1{
-        font-size: 1.6rem;
-        font-weight: 600;
+                a{
+                    margin: 1rem;
+                    font-size: 1.2rem;
+                }
+            } 
         }
-        a{
-            font-size: 1.6rem;
-            
-        }
+    }
 
-        a:nth-of-type(2){
-            margin-bottom: 1.5rem;
-        }
+    #intro-about{
+        height: 40rem;
+        width: 100%;
+        height: 25rem;     
 
+        h1,
         h2{
-            font-size: 1.6rem;
-            font-weight: 600;
+            font-size: 1.5rem;
             margin-bottom: 1rem;
-            color: var(--dark-pink);
         }
 
         p{
-            font-size: 1.5rem;
-            font-weight: lighter;
-            color: var(--dark-pink);
+            margin: 0 10%;
+            font-size: 1.6rem;;
         }
     }
+
+    #intro-creations{
+        height: 25rem;     
+
+        h1,
+        h2{
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        p{
+            margin: 0 10%;
+            font-size: 1.6rem;;
+        }
+    }
+
+    .intro-creations-products{
+
+        .creations{
+
+            .product{
+                background-color: var(--main-dark-color);
+                padding: 1rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 40rem;
+                z-index: 2;
+                margin-bottom: 1rem;
+                cursor: pointer;
+
+                h1{
+                    font-size: 2.5rem;
+                    margin: 2rem 0;
+                    color: var(--main-light-color);
+                    z-index: 100;
+                }
+                .product-img{
+                    cursor: pointer;
+                    object-fit: cover;
+                    height: 80%;
+                    transition: all 1s ease-in-out;
+                    left: 0;
+                    top: 0;
+                    position: relative;
+                    z-index: 3;
+                }
+
+                &:hover .product-img{
+                    height: 30%;
+                    left: -60%;
+                    height: 77%;
+                }
+
+                &:hover .product-hover{
+                    opacity: 1;
+                }
+
+                .product-hover{
+                transition: all 1s ease-in;
+
+                    p{
+                        font-size: 1.5rem;
+                        margin-bottom: 1rem;
+                    }
+                    
+                    p:nth-of-type(4){
+                        color: var(--dark-pink);
+                    }
+
+                }
+            }            
+        }
+    }
+
+    #bakery-info{
+
+        h1{
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        p{
+            width: 60%;
+            font-size: 1.6rem;
+            font-weight: 600;
+        }
+
+    }
+
+    #story-info{     
+
+        h1{
+            font-size: 1.5rem;
+            margin: 2rem 10% 0 10%;
+        }
+
+        h2{
+            margin: 2rem 10%;
+            font-size: 1.6rem;
+        }
+
+        p{
+            margin: 0 10% 2rem 10%;
+            font-size: 1.3rem;
+        }
+
+    }
+
+    #locations-info{
+        h1{
+            font-size: 1.6rem;
+            margin-bottom: 2rem;
+        }
+
+            div{
+                margin-bottom: 1rem;
+                h2{
+                    font-size: 1.6rem;
+                    letter-spacing: .3rem;
+                }
+                p{
+                    font-size: 1.4rem;
+                    letter-spacing: .1rem;
+                }
+            
+        }
+    }
+
+    #contact-info{
+        padding: 2rem 10%;
+
+        div{
+
+            h1{
+            font-size: 1.6rem;
+            font-weight: 600;
+            }
+            a{
+                font-size: 1.6rem;
+                
+            }
+
+            a:nth-of-type(2){
+                margin-bottom: 1.5rem;
+            }
+
+            h2{
+                font-size: 1.6rem;
+                font-weight: 600;
+                margin-bottom: 1rem;
+                color: var(--dark-pink);
+            }
+
+            p{
+                font-size: 1.5rem;
+                font-weight: lighter;
+                color: var(--dark-pink);
+            }
+        }
+    }    
 }
         
-}
-        
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 992px){
     #carousel-main{
         
         .carousel-caption{
@@ -797,32 +796,32 @@ nav{
                 font-size: 2rem;
             }
 
-        p{
-            margin-bottom: 5rem;
-            font-size: 1.8rem;
+            p{
+                margin-bottom: 5rem;
+                font-size: 1.8rem;
+            }
+
+            h2{
+                margin-left: 60%;
+                transform: translate(7rem, 3rem);
+            }
         }
 
-        h2{
-            margin-left: 60%;
-            transform: translate(7rem, 3rem);
+        .carousel-control-prev{
+            transform: translate(20%, 38rem);
+        }
+
+        .carousel-control-next{
+            transform: translate(-500%, 38rem);
+        }
+
+        .carousel-indicators{
+            position: absolute;
+            transform: translate(-50%, -1rem);
         }
     }
 
-    .carousel-control-prev{
-        transform: translate(20%, 46rem);
-    }
-
-    .carousel-control-next{
-        transform: translate(-500%, 46rem);
-    }
-
-    .carousel-indicators{
-        position: absolute;
-        transform: translate(-50%, -1rem);
-    }
-}
-
-nav{
+    nav{
         #menu{
             width: 15rem;
             height: 100vh;
@@ -830,729 +829,472 @@ nav{
             left:-15rem;
             z-index: 20;
 
-            .menu-close{
+            .menu-logo{
+                padding: 1rem;
 
-            }
-
-        .menu-logo{
-            padding: 1rem;
-
-            h1{
-                font-size: 2rem;
-                letter-spacing: .5rem;
-            }
-
-            h5{
-                font-size: 1.5rem;
-                margin-top: .5rem;
-            }
-            
-        }
-        .menu-items{
-            padding: 1rem;
-
-            ul li{
-                margin-top: 1rem;
-
-                a{
-                    font-size: 1.5rem;
-                    padding: .5rem;
+                h1{
+                    font-size: 2rem;
+                    letter-spacing: .5rem;
                 }
-            }
-        }
-        .menu-social{
 
-            a{
-                margin: 1.3rem;
-                font-size: 1.2rem;
-            }
-        } 
-    }
-}
-
-#intro-about{
-    height: 40rem;
-    width: 100%;
-    height: 25rem;     
-
-    h1,
-    h2{
-        font-size: 1.7rem;
-        margin-bottom: 1rem;
-    }
-
-    p{
-        margin: 0 10%;
-        font-size: 1.6rem;;
-    }
-}
-
-#intro-creations{
-    height: 25rem;     
-
-    h1,
-    h2{
-        font-size: 1.7rem;
-        margin-bottom: 1rem;
-    }
-
-    p{
-        margin: 0 10%;
-        font-size: 1.6rem;;
-    }
-}
-
-.intro-creations-products{
-
-    .creations{
-
-        .product{
-            height: 60rem;
-            cursor: pointer;
-
-            h1{
-                font-size: 3rem;
-                margin: 2rem 0;
-                letter-spacing: .3rem;
-            }
-            .product-img{
-                height: 80%;
-                left: 0;
-                top: 0;
-            }
-
-            &:hover .product-img{
-                height: 30%;
-                left: -60%;
-                height: 77%;
-            }
-
-            .product-hover{
-                margin-top: 4rem;
-                p{
-                    margin-top: 1rem;
-                    font-size: 1.9rem;
-                    margin-bottom: 1rem;
+                h5{
+                    font-size: 1.5rem;
+                    margin-top: .5rem;
                 }
                 
-                p:nth-of-type(4){
-                    color: var(--dark-pink);
+            }
+            .menu-items{
+                padding: 1rem;
+
+                ul li{
+                    margin-top: 1rem;
+
+                    a{
+                        font-size: 1.5rem;
+                        padding: .5rem;
+                    }
                 }
-
             }
-        }            
-    }
-}
+            .menu-social{
 
-#bakery-info{
-
-    h1{
-        font-size: 2rem;
-        margin-bottom: 2rem;
-    }
-
-    p{
-        width: 60%;
-        font-size: 1.9rem;
-        font-weight: 600;
-    }
-
-}
-
-#story-info{     
-
-    h1{
-        font-size: 1.9rem;
-        margin: 2rem 10% 0 10%;
-    }
-
-    h2{
-        margin: 2.3rem 10%;
-        font-size: 1.6rem;
-    }
-
-    p{
-        margin: 0 10% 2rem 10%;
-        font-size: 1.5rem;
-    }
-
-}
-
-#locations-info{
-    h1{
-        font-size: 1.9rem;
-        margin-bottom: 2rem;
-    }
-
-        div{
-            margin-bottom: 1rem;
-            h2{
-                font-size: 1.6rem;
-                letter-spacing: .3rem;
-            }
-            p{
-                font-size: 1.4rem;
-                letter-spacing: .1rem;
-            }
-        
-    }
-}
-
-#contact-info{
-    padding: 2rem 10%;
-
-    div{
-
-        h1{
-        font-size: 1.6rem;
-        font-weight: 600;
+                a{
+                    margin: 1.3rem;
+                    font-size: 1.2rem;
+                }
+            } 
         }
-        a{
-            font-size: 1.6rem;
-            
-        }
+    }
 
-        a:nth-of-type(2){
-            margin-bottom: 1.5rem;
-        }
+    #intro-about{
+        height: 40rem;
+        width: 100%;
+        height: 25rem;     
 
+        h1,
         h2{
-            font-size: 1.6rem;
-            font-weight: 600;
+            font-size: 1.7rem;
             margin-bottom: 1rem;
-            color: var(--dark-pink);
         }
 
         p{
-            font-size: 1.5rem;
-            font-weight: lighter;
-            color: var(--dark-pink);
+            margin: 0 10%;
+            font-size: 1.6rem;;
         }
     }
-}
-        
-}
 
-@media screen and (min-width: 1400px){
-    #carousel-main{
-        
-        .carousel-caption{
-            transform: translateY(-4rem);
+    #intro-creations{
+        height: 25rem;     
 
-            h1{
-                font-size: 7rem;
-                transform: translateY(-9rem);
-            }
-            h5{
-                transform: translateY(-2rem);
-                font-size: 2rem;
-            }
+        h1,
+        h2{
+            font-size: 1.7rem;
+            margin-bottom: 1rem;
+        }
 
         p{
-            margin-bottom: 5rem;
-            font-size: 1.8rem;
-            letter-spacing: .2rem;
-        }
-
-        h2{
-            margin-left: 60%;
-            transform: translate(7rem, 3rem);
+            margin: 0 10%;
+            font-size: 1.6rem;;
         }
     }
 
-    .carousel-control-prev{
-        transform: translate(20%, 46rem);
-    }
+    .intro-creations-products{
 
-    .carousel-control-next{
-        transform: translate(-500%, 46rem);
-    }
+        .creations{
 
-    .carousel-indicators{
-        position: absolute;
-        transform: translate(-50%, -1rem);
-    }
-}
+            .product{
+                height: 60rem;
+                cursor: pointer;
 
-nav{
-        #menu{
-            width: 15rem;
-            height: 100vh;
-            top:0;
-            left:-15rem;
-            z-index: 20;
-
-            .menu-close{
-
-            }
-
-        .menu-logo{
-            padding: 1rem;
-
-            h1{
-                font-size: 2rem;
-                letter-spacing: .5rem;
-            }
-
-            h5{
-                font-size: 1.5rem;
-                margin-top: .5rem;
-            }
-            
-        }
-        .menu-items{
-            padding: 1rem;
-
-            ul li{
-                margin-top: 1rem;
-
-                a{
-                    font-size: 1.5rem;
-                    padding: .5rem;
+                h1{
+                    font-size: 3rem;
+                    margin: 2rem 0;
+                    letter-spacing: .3rem;
                 }
-            }
-        }
-        .menu-social{
-
-            a{
-                margin: 1.3rem;
-                font-size: 1.2rem;
-            }
-        } 
-    }
-}
-
-#intro-about{
-    height: 40rem;
-    width: 100%;
-    height: 25rem;     
-
-    h1,
-    h2{
-        font-size: 1.7rem;
-        margin-bottom: 1rem;
-    }
-
-    p{
-        margin: 0 10%;
-        font-size: 2.7rem;;
-    }
-}
-
-#intro-creations{
-    height: 25rem;     
-
-    h1,
-    h2{
-        font-size: 1.7rem;
-        margin-bottom: 1rem;
-    }
-
-    p{
-        margin: 0 10%;
-        font-size: 2.7rem;;
-    }
-}
-
-.intro-creations-products{
-
-    .creations{
-
-        .product{
-            height: 60rem;
-            cursor: pointer;
-
-            h1{
-                font-size: 3rem;
-                margin: 2rem 0;
-                letter-spacing: .3rem;
-            }
-            .product-img{
-                height: 80%;
-                width: 50%;
-                left: 0;
-                top: 0;
-            }
-
-            &:hover .product-img{
-                height: 30%;
-                left: -60%;
-                height: 77%;
-            }
-
-            .product-hover{
-                margin-top: 4rem;
-                p{
-                    margin-top: 1rem;
-                    font-size: 1.9rem;
-                    margin-bottom: 1rem;
-                }
-                
-                p:nth-of-type(4){
-                    color: var(--dark-pink);
+                .product-img{
+                    height: 80%;
+                    left: 0;
+                    top: 0;
                 }
 
-            }
-        }            
-    }
-}
+                &:hover .product-img{
+                    height: 30%;
+                    left: -60%;
+                    height: 77%;
+                }
 
-#bakery-info{
+                .product-hover{
+                    margin-top: 4rem;
+                    p{
+                        margin-top: 1rem;
+                        font-size: 1.9rem;
+                        margin-bottom: 1rem;
+                    }
+                    
+                    p:nth-of-type(4){
+                        color: var(--dark-pink);
+                    }
 
-    h1{
-        font-size: 2rem;
-        margin-bottom: 2rem;
-    }
-
-    p{
-        width: 60%;
-        font-size: 2.7rem;
-        font-weight: 600;
-    }
-
-}
-
-#story-info{     
-
-    h1{
-        font-size: 1.9rem;
-        margin: 2rem 10% 0 10%;
+                }
+            }            
+        }
     }
 
-    h2{
-        margin: 2.3rem 10%;
-        font-size: 1.6rem;
-    }
-
-    p{
-        margin: 0 10% 2rem 10%;
-        font-size: 1.9rem;
-    }
-
-}
-
-#locations-info{
-    h1{
-        font-size: 2.2rem;
-        margin-bottom: 2rem;
-    }
-
-        div{
-            margin-bottom: 1rem;
-            h2{
-                font-size: 2rem;
-                letter-spacing: .3rem;
-            }
-            p{
-                font-size: 1.7rem;
-                letter-spacing: .1rem;
-            }
-        
-    }
-}
-
-#contact-info{
-    padding: 2rem 10%;
-
-    div{
+    #bakery-info{
 
         h1{
-        font-size: 2rem;
-        font-weight: 600;
-        }
-        a{
-            font-size: 1.6rem;
-            
+            font-size: 2rem;
+            margin-bottom: 2rem;
         }
 
-        a:nth-of-type(2){
-            margin-bottom: 1.5rem;
-        }
-
-        h2{
+        p{
+            width: 60%;
             font-size: 1.9rem;
             font-weight: 600;
-            margin-bottom: 1rem;
-            color: var(--dark-pink);
+        }
+
+    }
+
+    #story-info{     
+
+        h1{
+            font-size: 1.9rem;
+            margin: 2rem 10% 0 10%;
+        }
+
+        h2{
+            margin: 2.3rem 10%;
+            font-size: 1.6rem;
         }
 
         p{
-            font-size: 1.78rem;
-            font-weight: lighter;
-            color: var(--dark-pink);
+            margin: 0 10% 2rem 10%;
+            font-size: 1.5rem;
+        }
+
+    }
+
+    #locations-info{
+        h1{
+            font-size: 1.9rem;
+            margin-bottom: 2rem;
+        }
+
+            div{
+                margin-bottom: 1rem;
+                h2{
+                    font-size: 1.6rem;
+                    letter-spacing: .3rem;
+                }
+                p{
+                    font-size: 1.4rem;
+                    letter-spacing: .1rem;
+                }
+            
         }
     }
-}
+
+    #contact-info{
+        padding: 2rem 10%;
+
+        div{
+
+            h1{
+            font-size: 1.6rem;
+            font-weight: 600;
+            }
+            a{
+                font-size: 1.6rem;
+                
+            }
+
+            a:nth-of-type(2){
+                margin-bottom: 1.5rem;
+            }
+
+            h2{
+                font-size: 1.6rem;
+                font-weight: 600;
+                margin-bottom: 1rem;
+                color: var(--dark-pink);
+            }
+
+            p{
+                font-size: 1.5rem;
+                font-weight: lighter;
+                color: var(--dark-pink);
+            }
+        }
+    }
         
 }
 
-@media screen and (min-width: 1600px){
+
+@media screen and (min-width: 1200px){
     #carousel-main{
         
         .carousel-caption{
             transform: translateY(-4rem);
 
             h1{
-                font-size: 8rem;
+                font-size: 6rem;
                 transform: translate(6rem, -9rem);
             }
             h5{
                 transform: translate(6rem, -2rem);
-                font-size: 2rem;
-            }
-
-        p{
-            margin-bottom: 5rem;
-            font-size: 2.3rem;
-            letter-spacing: .2rem;
-            width: 70%;
-            margin-left: 13%;
-            transform: translateX(6rem);
-        }
-
-        h2{
-            margin-left: 80%;
-            transform: translate(7rem, 3rem);
-            font-size: 1.7rem;
-        }
-    }
-
-    .carousel-control-prev{
-        transform: translate(90%, 46rem);
-    }
-
-    .carousel-control-next{
-        transform: translate(-450%, 46rem);
-    }
-
-    .carousel-indicators{
-        position: absolute;
-        transform: translate(-39%, -2rem);
-    }
-}
-
-nav{
-        #menu{
-            position: fixed;
-            width: 17rem;
-            height: 100vh;
-            top:0;
-            left:0rem;
-            z-index: 20;
-
-            .menu-close{
-                display: none;
-            }
-
-        .menu-logo{
-            padding: 1rem;
-
-            h1{
-                font-size: 2.4rem;
-                letter-spacing: .5rem;
-            }
-
-            h5{
-                font-size: 1.9rem;
-                margin-top: .5rem;
-            }
-            
-        }
-        .menu-items{
-            padding: 1rem;
-
-            ul li{
-                margin-top: 1rem;
-
-                a{
-                    font-size: 1.7rem;
-                    padding: .5rem;
-                }
-            }
-        }
-        .menu-social{
-
-            a{
-                margin: 1.3rem;
                 font-size: 1.5rem;
             }
-        } 
-    }
-}
 
-#intro-about{
-    height: 40rem;
-    width: 100%;
-    height: 40rem;     
-
-    h1,
-    h2{
-        font-size: 2rem;
-        margin: 0 20% 1rem 30%;
-    }
-
-    p{
-        margin: 0 20% 0 30%;
-        font-size: 2.7rem;;
-    }
-}
-
-#intro-creations{
-    height: 40rem;     
-
-    h1,
-    h2{
-        font-size: 2rem;
-        margin: 0 20% 1rem 30%;
-    }
-
-    p{
-        font-size: 2.7rem;
-        margin: 0 20% 1rem 30%;
-    }
-}
-
-.intro-creations-products{
-    flex-direction: row;
-    .creations{
-        margin-left: 20%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-
-        .product{
-            height: 50rem;
-            cursor: pointer;
-            width: 40rem;
-            margin: 0 3rem 2rem 3rem;
-
-            h1{
-                font-size: 3rem;
-                margin: 2rem 0;
-                letter-spacing: .3rem;
-            }
-            .product-img{
-                height: 80%;
-                width: 80%;
-                left: 0;
-                top: 0;
-                opacity: 1;
+            p{
+                margin-bottom: 5rem;
+                font-size: 1.3rem;
+                letter-spacing: .2rem;
+                width: 70%;
+                margin-left: 13%;
+                transform: translateX(6rem);
             }
 
-            &:hover .product-img{
-                left: -60%;
-                height: 77%;
-                opacity: 0;
+            h2{
+                margin-left: 80%;
+                transform: translate(7rem, 3rem);
+                font-size: 1.3rem;
             }
+        }
 
-            .product-hover{
-                margin-top: 4rem;
-                width: 40rem;
-                p{
-                    margin-top: 1rem;
+        .carousel-control-prev{
+            transform: translate(127%, 38rem);
+        }
+
+        .carousel-control-next{
+            transform: translate(-410%, 38rem);
+        }
+
+        .carousel-indicators{
+            position: absolute;
+            transform: translate(-30%, -2rem);
+        }
+    }
+
+    nav{
+            #menu{
+                position: fixed;
+                width: 17rem;
+                height: 100vh;
+                top:0;
+                left:0rem;
+                z-index: 20;
+
+                .menu-close{
+                    display: none;
+                }
+
+            .menu-logo{
+                padding: 1rem;
+
+                h1{
+                    font-size: 2.4rem;
+                    letter-spacing: .49rem;
+                }
+
+                h5{
                     font-size: 1.9rem;
-                    margin-bottom: 1rem;
-                    transform: translateX(-3.5rem)
+                    margin-top: .5rem;
                 }
                 
-                p:nth-of-type(4){
-                    color: var(--dark-pink);
+            }
+            .menu-items{
+                padding: 1rem;
+
+                ul li{
+                    margin-top: 1rem;
+
+                    a{
+                        font-size: 1.7rem;
+                        padding: .5rem;
+                    }
                 }
-
             }
-        }            
-    }
-}
+            .menu-social{
 
-#bakery-info{
-
-    h1{
-        font-size: 2rem;
-        margin: 0 20% 2rem 30%;
-    }
-
-    p{
-        width: 60%;
-        font-size: 2.7rem;
-        font-weight: 600;
-        margin: 0 20% 1rem 30%;
-    }
-
-}
-
-#story-info{     
-
-    h1{
-        font-size: 1.9rem;
-        margin: 2rem 20% 0 30%;
-    }
-
-    h2{
-        margin: 2.3rem 20% 0 30%;
-        font-size: 1.6rem;
-    }
-
-    p{
-        margin: 0 20% 2rem 30%;
-        font-size: 1.9rem;
-    }
-
-}
-
-#locations-info{
-    h1{
-        font-size: 2.5rem;
-        margin: 0 20% 2rem 30%;
-    }
-
-        div{
-            margin: 0 20% 1rem 30%;
-            h2{
-                font-size: 2rem;
-                letter-spacing: .3rem;
-            }
-            p{
-                font-size: 1.7rem;
-                letter-spacing: .1rem;
-            }
-        
-    }
-}
-
-#contact-info{
-    padding: 2rem 10%;
-
-    div{
-
-        h1{
-        font-size: 2.5rem;
-        font-weight: 600;
-        margin: 0 20% 1rem 30%;
+                a{
+                    margin: 1.3rem;
+                    font-size: 1.5rem;
+                }
+            } 
         }
-        a{
-            font-size: 1.6rem;
-            margin: 0 20% 1rem 30%;
-            
-        }
+    }
 
-        a:nth-of-type(2){
-            margin-bottom: 1.5rem;
-        }
+    #intro-about{
+        height: 40rem;
+        width: 100%;
+        height: 40rem;     
 
+        h1,
         h2{
-            font-size: 1.9rem;
-            font-weight: 600;
-            color: var(--dark-pink);
+            font-size: 2rem;
             margin: 0 20% 1rem 30%;
         }
 
         p{
-            font-size: 1.78rem;
-            font-weight: lighter;
-            color: var(--dark-pink);
-            margin: 0 20% 1rem 30%;
+            margin: 0 20% 0 30%;
+            font-size: 2.7rem;;
         }
     }
-}
-        
+
+    #intro-creations{
+        height: 40rem;     
+
+        h1,
+        h2{
+            font-size: 2rem;
+            margin: 0 20% 1rem 35%;
+        }
+
+        p{
+            font-size: 2.5rem;
+            margin: 0 20% 1rem 35%;
+        }
+    }
+
+    .intro-creations-products{
+        flex-direction: row;
+        .creations{
+            margin-left: 20%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            .product{
+                height: 50rem;
+                cursor: pointer;
+                width: 35rem;
+                margin: 0 0rem 2rem 1rem;
+
+                h1{
+                    font-size: 3rem;
+                    margin: 2rem 0;
+                    letter-spacing: .3rem;
+                }
+                .product-img{
+                    height: 80%;
+                    width: 80%;
+                    left: 0;
+                    top: 0;
+                    opacity: 1;
+                }
+
+                &:hover .product-img{
+                    left: -60%;
+                    height: 77%;
+                    opacity: 0;
+                }
+
+                .product-hover{
+                    margin-top: 4rem;
+                    width: 35rem;
+                    p{
+                        margin-top: 1rem;
+                        font-size: 1.5rem;
+                        margin-bottom: 1rem;
+                        transform: translateX(-3.5rem)
+                    }
+                    
+                    p:nth-of-type(4){
+                        color: var(--dark-pink);
+                    }
+
+                }
+            }            
+        }
+    }
+
+    #bakery-info{
+
+        h1{
+            font-size: 2rem;
+            margin: 0 20% 2rem 30%;
+        }
+
+        p{
+            width: 60%;
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin: 0 20% 1rem 35%;
+        }
+
+    }
+
+    #story-info{     
+
+        h1{
+            font-size: 1.9rem;
+            margin: 2rem 20% 0 30%;
+        }
+
+        h2{
+            margin: 2.3rem 20% 0 30%;
+            font-size: 1.6rem;
+        }
+
+        p{
+            margin: 0 20% 2rem 30%;
+            font-size: 1.6rem;
+        }
+
+    }
+
+    #locations-info{
+        h1{
+            font-size: 2.5rem;
+            margin: 0 20% 2rem 30%;
+        }
+
+            div{
+                margin: 0 20% 1rem 30%;
+                h2{
+                    font-size: 2rem;
+                    letter-spacing: .3rem;
+                }
+                p{
+                    font-size: 1.7rem;
+                    letter-spacing: .1rem;
+                }
+            
+        }
+    }
+
+    #contact-info{
+        padding: 2rem 10%;
+
+        div{
+
+            h1{
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin: 0 20% 1rem 30%;
+            }
+            a{
+                font-size: 1.6rem;
+                margin: 0 20% 1rem 30%;
+                
+            }
+
+            a:nth-of-type(2){
+                margin-bottom: 1.5rem;
+            }
+
+            h2{
+                font-size: 1.9rem;
+                font-weight: 600;
+                color: var(--dark-pink);
+                margin: 0 20% 1rem 30%;
+            }
+
+            p{
+                font-size: 1.78rem;
+                font-weight: lighter;
+                color: var(--dark-pink);
+                margin: 0 20% 1rem 30%;
+            }
+        }
+    }     
 }
